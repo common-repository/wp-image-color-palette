@@ -1,0 +1,42 @@
+{
+    "name": "mkronenfeld/image-palette",
+    "type": "library",
+    "description": "Extracts colors from an image and generates a color palette against a whitelist of colors.",
+    "keywords": ["image","color","palette","extractor","gd"],
+    "homepage": "https://github.com/BrianMcdo/ImagePalette",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Marvin Kronenfeld",
+            "homepage": "http://mkronenfeld.de",
+            "role": "Developer"
+        },
+        {
+            "name": "Brian McDonald",
+            "email": "brian@brianmcdonald.io",
+            "homepage": "http://brianmcdonald.io",
+            "role": "Developer"
+        },
+        {
+            "name": "Gandalf the Grey",
+            "homepage": "https://github.com/gandalfx",
+            "role": "Developer"
+        }
+    ],
+    "replace": {
+        "bfoxwell/image-palette": "*"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "ext-gd": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Makro\\ImagePalette\\": "src"
+        }
+    }
+}
